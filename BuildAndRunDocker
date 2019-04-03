@@ -1,0 +1,4 @@
+sudo docker build -t hello_akka:v1 .
+sudo docker run hello_akka:v1 -p 9000:9000
+
+

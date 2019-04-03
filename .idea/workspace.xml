@@ -43,8 +43,6 @@
       <change afterPath="$PROJECT_DIR$/.idea/modules/HelloAkka-build.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules/HelloAkka.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Server.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../TypeClass3/TypeClass3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ML/LogisticRegression/.idea/libraries/sbt__antlr_antlr_2_7_7_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ML/LogisticRegression/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" beforeDir="false" />
@@ -257,6 +255,8 @@
       <change beforePath="$PROJECT_DIR$/../../ML/LogisticRegression/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ML/LogisticRegression/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ML/LogisticRegression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ML/LogisticRegression/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ML/StanfordNlpTriples/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ML/StanfordNlpTriples/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Server.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Server.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TypeClass2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TypeClass2/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TypeClass2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../TypeClass2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TypeClass3/.idea/.name" beforeDir="false" />
@@ -290,8 +290,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/build.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -299,8 +308,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/Server.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -311,7 +320,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -322,8 +331,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="236" />
-    <option name="y" value="76" />
+    <option name="x" value="390" />
+    <option name="y" value="107" />
     <option name="width" value="1000" />
     <option name="height" value="1000" />
   </component>
@@ -344,6 +353,11 @@
             <path>
               <item name="HelloAkka" type="b2602c69:ProjectViewProjectNode" />
               <item name="HelloAkka" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HelloAkka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HelloAkka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,7 +374,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554230616281" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554233597952" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -434,14 +448,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="76" width="1000" height="1000" extended-state="0" />
+    <frame x="390" y="107" width="1000" height="1000" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15932915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15932915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.35132033" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" />
@@ -451,7 +465,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.3295063" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295063" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295063" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -468,17 +482,24 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/project/build.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/Server.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
