@@ -1,7 +1,7 @@
 pipeline {
 	agent { label 'linux' }
 	tools {
-		sbt '1.1.6'
+		org.jvnet.hudson.plugins.SbtPluginBuilder1.1.6
 	}
 	stages {
 		stage('checkout') {
