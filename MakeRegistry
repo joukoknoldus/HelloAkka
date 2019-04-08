@@ -1,0 +1,1 @@
+docker run -d   --restart=always   --name registry   -v /home/jouko/dev/project/certs:/certs   -e REGISTRY_HTTP_ADDR=192.168.1.5:5002   -e REGISTRY_HTTP_TLS_CERTIFICATE=/home/jouko/dev/project/certs/domain.crt   -e REGISTRY_HTTP_TLS_KEY=/home/jouko/dev/project/certs/domain.key   -p 5002:5002  registry:2
